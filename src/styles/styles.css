@@ -33,7 +33,7 @@ p{
 }
 .button-1{
     border-radius: 22px;
-    padding: 10px;
+    padding: 12px 26px;
     background-color: white;
     color: hsl(31, 77%, 52%);
     font-size: 12px;
@@ -50,8 +50,8 @@ p{
     height: 400px;
 }
 .button-2{
-    border-radius: 22px;
-    padding: 10px;
+    border-radius: 20px;
+    padding: 12px 26px;
     background-color: white;
     color: hsl(184, 100%, 22%);
     font-size: 12px;
@@ -70,7 +70,7 @@ p{
 }
 .button-3{
     border-radius: 22px;
-    padding: 10px;
+    padding: 12px 26px;
     background-color: white;
     color: hsl(179, 100%, 13%);
     font-size: 12px;
