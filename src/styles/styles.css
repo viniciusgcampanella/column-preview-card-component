@@ -1,79 +1,93 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Lexend Deca", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
 }
-.principal{
+body {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-h1{
-    font-family: "Big Shoulders Display", sans-serif;
-    padding: 20px 0;
+.principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  /* tudo que esta fora da div, ele esconde */
 }
-p{
-    font-size: 15px;
-    margin-bottom: 50px;
-    padding: 20px 0;
-    color: hsla(0, 0%, 100%, 0.75)
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  padding: 20px 0;
 }
-.sedan{
-    background-color: hsl(31, 77%, 52%);
-    padding: 20px;
-    color: white;
-    border-radius: 10px 0 0 10px;
-    display: flex;
+p {
+  font-size: 15px;
+  margin-bottom: 50px;
+  padding: 20px 0;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 250px;
+  height: 400px;
+}
+.button-1 {
+  border-radius: 22px;
+  padding: 12px 26px;
+  background-color: white;
+  color: hsl(31, 77%, 52%);
+  font-size: 12px;
+  border: none;
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 250px;
+  height: 400px;
+}
+.button-2 {
+  border-radius: 20px;
+  padding: 12px 26px;
+  background-color: white;
+  color: hsl(184, 100%, 22%);
+  font-size: 12px;
+  border: none;
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 250px;
+  height: 400px;
+}
+.button-3 {
+  border-radius: 22px;
+  padding: 12px 26px;
+  background-color: white;
+  color: hsl(179, 100%, 13%);
+  font-size: 12px;
+  border: none;
+}
+@media screen and (max-width: 425px) {
+  body {
+    height: 100%;
+  }
+  .principal {
     flex-direction: column;
-    align-items: flex-start;
-    width: 250px;
-    height: 400px;
+    margin: 30px auto;
+  }
 }
-.button-1{
-    border-radius: 22px;
-    padding: 12px 26px;
-    background-color: white;
-    color: hsl(31, 77%, 52%);
-    font-size: 12px;
-    border: none;
-}
-.suvs{
-    background-color: hsl(184, 100%, 22%);
-    padding: 20px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 250px;
-    height: 400px;
-}
-.button-2{
-    border-radius: 20px;
-    padding: 12px 26px;
-    background-color: white;
-    color: hsl(184, 100%, 22%);
-    font-size: 12px;
-    border: none;
-}
-.luxury{
-    background-color: hsl(179, 100%, 13%);
-    padding: 20px;
-    color: white;
-    border-radius: 0 10px 10px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 250px;
-    height: 400px;
-}
-.button-3{
-    border-radius: 22px;
-    padding: 12px 26px;
-    background-color: white;
-    color: hsl(179, 100%, 13%);
-    font-size: 12px;
-    border: none;
-}
-
